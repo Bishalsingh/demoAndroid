@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.example.uv.layoutbce.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnlinearv"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear[Vertical]" />
+
+    <Button
+        android:id="@+id/btnlinearh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear[Horizontal]" />
+
+    <Button
+        android:id="@+id/btnrelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relative" />
+
+    <Button
+        android:id="@+id/btnabsolutely"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Absolute" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+</LinearLayout>
